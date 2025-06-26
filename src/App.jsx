@@ -13,7 +13,7 @@ function App() {
            
 
          <main className="flex-1 overflow-y-auto bg-neutral-800 text-neutral-300 px-4 py-6 justify-center flex">
-              <p>As tarefas aparecem aqui</p>
+              <p>As tarefas aparecem aqui todas</p>
          </main>
 
          {/*Addion Tasks*/}
