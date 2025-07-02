@@ -8,15 +8,15 @@ function App() {
   return (
     <>
       <div className="h-screen flex flex-col gap-3.5">
-    
+        <Top/>
 
-        <h1 className="text-3xl text-red-600"> Farei esse dinheiro Sumir da sua conta ainda hoje, relaxa, ja tenho todos os dados</h1>
+        <Main/>
 
         {/*Addion Tasks*/}
-   
+      <AddTask/>
 
         {/*HEADER SECTION */}
-       
+        <Header />
       </div>
     </>
   );
