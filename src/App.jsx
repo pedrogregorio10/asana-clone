@@ -1,35 +1,19 @@
 import { DynamicIcon } from "lucide-react/dynamic";
-
 import Header from "./componets/Header";
+import Top from "./componets/Top";
+import AddTask from "./componets/AddTask"
+import Main from "./componets/Main"
+
 function App() {
   return (
     <>
       <div className="h-screen flex flex-col gap-3.5">
-        <div className="bg-neutral-700 text-neutral-300">
-          <h1>Minhas tarefas</h1>
-        </div>
+        <Top/>
 
-        <main className="flex-1 overflow-y-auto bg-neutral-800 text-neutral-300 px-4 py-6 justify-center flex">
-          <p>As tarefas aparecem aqui todas</p>
-        </main>
+        <Main/>
 
         {/*Addion Tasks*/}
-        <div className="inline-flex justify-center">
-          <div className="bg-neutral-700 p-2 flex gap-1 rounded-2xl">
-
-            <button className="bg-blue-600 pl-2 pr-2 rounded-2xl">
-              <DynamicIcon name="settings-2" color="blue" />
-            </button>
-
-            <button className="inline-flex bg-neutral-800 pt-2 pb-2 pl-7 pr-7 rounded-2xl gap-1 border-2 border-neutral-600">
-              <span className="text-amber-50">List </span>  <DynamicIcon size="15" name="chevrons-up-down" className="text-neutral-300"/>
-            </button>
-
-            <button className="bg-red-500 pl-2 pr-2 rounded-2xl">
-              <DynamicIcon name="plus" />
-            </button>
-          </div>
-        </div>
+      <AddTask/>
 
         {/*HEADER SECTION */}
         <Header />
