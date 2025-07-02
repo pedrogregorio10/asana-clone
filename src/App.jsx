@@ -8,15 +8,15 @@ function App() {
   return (
     <>
       <div className="h-screen flex flex-col gap-3.5">
-        <Top/>
+    
 
-        <Main/>
+        <h1 className="text-3xl"> Leticia da a merda da minha parte do dinheiro</h1>
 
         {/*Addion Tasks*/}
-      <AddTask/>
+   
 
         {/*HEADER SECTION */}
-        <Header />
+       
       </div>
     </>
   );
