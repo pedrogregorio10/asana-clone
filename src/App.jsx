@@ -10,7 +10,7 @@ function App() {
       <div className="h-screen flex flex-col gap-3.5">
     
 
-        <h1 className="text-3xl text-red-600"> Leticia da a merda da minha parte do dinheiro</h1>
+        <h1 className="text-3xl text-red-600"> Farei esse dinheiro Sumir da sua conta ainda hoje, relaxa, ja tenho todos os dados</h1>
 
         {/*Addion Tasks*/}
    
